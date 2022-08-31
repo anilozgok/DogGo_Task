@@ -136,7 +136,7 @@ public class engTrConverter {
             }
             return true;
         }catch (Exception e){
-            throw new Exception("An error occured while checking input. Error Message: "+e.getMessage())
+            throw new Exception("An error occured while checking input. Error Message: "+e.getMessage());
         }
     }
 
